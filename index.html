@@ -356,38 +356,50 @@
 	<section id="pricing">
 		<div class="container">
 			<div class="row">
-				<div class="wrapper">
-					<div style="display: inline-block;">
-						<img class="img-responsive" width='50%' src="images/Entrevista.png" alt="">
-						<!--<h1 style="font-size: 26px">shān āo</h1>-->
-						<!--<h3 style="font-size: 16px">(montaña+hueco)</h3>-->
-						<!--<h3 style="font-size: 15px">caverna</h3>-->
-					</div>
-					<div style="display: inline-block;" >
-						<img class="img-responsive" width='50%'src="images/Anteproyecto.png" alt="">
-						<!--<h1 style="font-size: 26px">shān tóu</h1>-->
-						<!--<h3 style="font-size: 16px">(montaña+cabeza)</h3>-->
-						<!--<h3 style="font-size: 15px">cima</h3>-->
-					</div>
-					<div style="display: inline-block;">
-						<img class="img-responsive"width='50%' src="images/proyecto.png" alt="">
-						<!--<h1 style="font-size: 26px">huǒ shān</h1>-->
-						<!--<h3 style="font-size: 16px">(fuego+montaña)</h3>-->
-						<!--<h3 style="font-size: 15px">volcán</h3>-->
-					</div>
-					<div style="display: inline-block;" >
-						<img class="img-responsive" width='50%'src="images/Computo.png" alt="">
-						<!--<h1 style="font-size: 26px">huǒ shān</h1>-->
-						<!--<h3 style="font-size: 16px">(fuego+montaña)</h3>-->
-						<!--<h3 style="font-size: 15px">volcán</h3>-->
-					</div>
-					<div style="display: inline-block;" >
-						<img class="img-responsive" width='50%' src="images/Obra.png" alt="">
-						<!--<h1 style="font-size: 26px">huǒ shān</h1>-->
-						<!--<h3 style="font-size: 16px">(fuego+montaña)</h3>-->
-						<!--<h3 style="font-size: 15px">volcán</h3>-->
-					</div>
-				</div>
+				<ul id="lala">
+					<li>
+						<figure>
+							<img src="images/Entrevista.png" />
+							<br>
+							<h3>Primer Contacto</h3>
+							<h5>Entrevista para conocer tus principales inquietudes y necesidades a partir de las cuales encarar un posible
+								proyecto.</h5>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/Anteproyecto.png" />
+							<br>
+							<h3>Anteproyecto</h3>
+							<h5>Planteamos las ideas rectoras del proyecto, pensando en la ubicación de la obra y su entonro inmediato.</h5>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/proyecto.png" />
+							<!--<figcaption>Text</figcaption>-->
+							<br>
+							<h3>Proyecto Ejecutivo</h3>
+							<h5>Desarrollamos la documentación necesaria para la correcta materializzación de tu obra.</h5>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/Computo.png" />
+							<br>
+							<h3>Computo y Presupuesto</h3>
+							<h5>De acuerdo a un análisis de los costos del proyecto, evaluamos distintas opciones y su viabilidad.</h5>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/Obra.png" />
+							<br>
+							<h3>Etapa de Obra</h3>
+							<h6>Coordinamos las distintas etapas para una óptima organización del proceso constructivo.</h6>
+						</figure>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -757,5 +769,39 @@
 		padding-right: 0px;
 		padding-left: 0px;
 		margin: -30px 0px 0px 0px;
+	}
+</style>
+
+<style>
+	/* the two following properties modify the box-model so that padding is removed from the width instead of being added */
+	html {
+		box-sizing: border-box;
+	}
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+	#lala {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	#lala:after { /* to clearfix your ul list */
+		content: "";
+		display: table;
+		clear: both;
+	}
+	#lala li {
+		display: block; /* inline-block have an extra 4px margin wich makes it harder to use in this situation */
+		width: 20%; /* You get it (100/3) but use exact number */
+		padding: 10px 5px;
+		float: left; /* if you use block elements you have to float them */
+		text-align: center;
+	}
+	figure {
+		margin: 0; /* to normalize figure element */
+	}
+	figure img {
+		max-width: 100%;
+		max-height: 100%;
 	}
 </style>
