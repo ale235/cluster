@@ -768,6 +768,35 @@
 		color: white;
 	}
 
+/* 12. FUN FACTS */
+
+#fun2-facts{
+	background-color: #f5f5f5;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
+}
+
+#fun2-facts .fun2-fact{
+	/*border-right: 1px solid #ddd;*/
+	color: white;
+}
+
+#fun2-facts .col-md-3:last-child .fun2-fact{
+	border-right: 0px solid #ddd;
+	color: white;
+}
+
+#fun2-facts .fun2-fact i{
+	margin-right: 5px;
+	color: white;
+}
+
+#fun2-facts .fun2-fact p{
+	font-size: 16px;
+	color: white;
+}
+
 
 
 /* 13. CONTACT */
