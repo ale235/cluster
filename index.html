@@ -55,12 +55,12 @@
 
 				<div class="collapse navbar-collapse" id="st-navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-				    	<li><a href="#header">Inicio</a></li>
-				    	<li><a href="#services">Servicios</a></li>
-				    	<li><a href="#pricing">Estudio</a></li>
-						<li><a href="#our-works">Proyectos</a></li>
-				    	<li><a href="#our-team">Syntes</a></li>
-				    	<li><a href="#contact">Contacto</a></li>
+				    	<li><a href="#header" style="color: skyblue">Inicio</a></li>
+				    	<li><a href="#services" style="color: skyblue">Servicios</a></li>
+						<li><a href="#our-works" style="color: skyblue">Proyectos</a></li>
+				    	<li><a href="#pricing" style="color: skyblue">Estudio</a></li>
+				    	<li><a href="#our-team" style="color: skyblue">IDEA</a></li>
+				    	<li><a href="#contact" style="color: skyblue">Contacto</a></li>
 				    	<!--<li><a href="blog.html">Blog</a></li>-->
 					</ul>
 				</div><!-- /.navbar-collapse -->
@@ -74,16 +74,9 @@
 	<section id="slider">
 		<div id="home-carousel" class="carousel slide" data-ride="carousel">			
 			<div class="carousel-inner">
-				<div class="item active" style="background-image: url(images/slider/IMAGEN01.jpg)">
+				<div class="item active" id="imagen1carru" style="background-image: url(images/slider/IMAGEN01contexto.jpg)">
 					<div class="carousel-caption container">
 						<div class="row">
-							<div class="col-sm-7">
-								<h1 >Bienvenido a</h1>
-								<br>
-								<h1 style="color: skyblue"><b>ID.ARQUITECTURA</b></h1>
-								<br>
-								<p>Somos una oficina de arquitectura conformado por un equipo de jóvenes arquitectos abocados al diseño arquitectónico, urbano y de interiorismo.</p>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -91,10 +84,12 @@
 					<div class="carousel-caption container">
 						<div class="row">
 							<div class="col-sm-9">
-								<h1 style="    margin-bottom: 40px;">No sólo construimos edificios</h1>
-								<h1 style="    margin-bottom: 40px;"><b>También construimos sueños</b></h1>
-								<p>Diseñamos obras nuevas, remodelaciones y hasta mobiliario interior.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									No lo dudes y consultá por nuestros servicios y obras.</p>
+								<h1>No sólo construimos edificios</h1>
+								<br>
+								<h1>También construimos sueños</h1>
+
+								<p>Diseñamos obras nuevas, remodelaciones y hasta mobiliario interior.</p>
+								<p>No lo dudes y consultá por nuestros servicios y obras.</p>
 							</div>
 						</div>
 					</div>					
@@ -129,7 +124,8 @@
 
 	
 	<!-- SERVICES -->
-	<section id="services">
+	<section id="services" style="  margin-top: 15px;padding-top: 65px;
+    padding-bottom: 120px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -140,7 +136,8 @@
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-desktop"></i> PROYECTO ARQUITECTÓNICO</h2>
+					<img src="images/icon/Proyecto.png" style="    position: absolute;height: 10%;">
+					<h2>&nbsp &nbsp&nbspPROYECTO ARQUITECTÓNICO</h2>
 					<p>Atendiendo siempre a las necesidades particulares del cliente, ofrecemos un trabajo integral en la realización de proyectos de diversos destinos. Compromiso, innovación y distinción son cualidades esenciales en nuestros diseños.</p>
 				</div>
 
@@ -166,8 +163,8 @@
 					</p>
 				</div>
 
-				<div class="col-md-4 col-sm-6 ">
-					<h2><i class="fa fa-weixin"></i> MODELADO | RENDERIZADO 3D</h2>
+				<div class="col-md-4 col-sm-6  st-service">
+					<h2 style="color: skyblue"><i class="fa fa-weixin"></i>IDEA</h2>
 					<p>Mediante el uso de software BIM (Building Information Modeling), te proponemos la realización 3D de tu proyecto de arquitectura, más la definición gráfica que sólo un renderizador puede lograr. </p>
 				</div>
 			</div>
@@ -812,6 +809,7 @@
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         $('#logoblog').height('30px');
         $('#logoblog').width('220px');
+        $('#imagen1carru').css('background-image', 'url(images/slider/IMAGEN01PARACELULAR.jpg)');
 
         $('.tata').css('font-size','10px')
         $('.sasa').css('font-size','9px')
@@ -822,7 +820,7 @@
 	.sinpaddingprimero {
 		padding-right: 0px;
 		padding-left: 0px;
-		margin: 0px 0px 0px 0px;
+		margin: 0px 0px -30px 0px;
 	}
 
 	.sinpadding {
