@@ -1117,6 +1117,266 @@
 		color: #000;
 	}
 
+/* 9. ABOUT US */
+
+	#renderizado{
+		background-color: #f5f5f5;
+	}
+
+	#renderizado .about-us{
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 15%;
+	}
+
+	#renderizado .about-us h4{
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	#renderizado .about-us .btn-send{
+		margin-top: 30px;
+	}
+
+	#renderizado .our-office{
+		padding-right: 0px;
+	}
+
+	.office-carousel-left,
+	.office-carousel-right {
+		background-color: #f0f0f0;
+		color:#000;
+		font-size: 32px;
+		height: 40px;
+		line-height: 40px;
+		margin-top: -20px;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width: 32px;
+		z-index: 999;
+		-webkit-transition: 300ms;
+		-moz-transition: 300ms;
+		-o-transition: 300ms;
+		-ms-transition: 300ms;
+		transition: 300ms;
+	}
+
+	.office-carousel-left {
+		left:-32px;
+	}
+
+	.office-carousel-right {
+		right:-32px;
+	}
+
+	#renderizado-carousel:hover .office-carousel-left {
+		left:0;
+	}
+
+	#renderizado-carousel:hover .office-carousel-right {
+		right:0;
+	}
+
+	#renderizado-carousel .item img{
+		width: 100%;
+	}
+
+
+/*9. ABOUT US */
+
+	#modelado{
+		background-color: #FFFFFF;
+	}
+
+	#modelado .about-us{
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 15%;
+	}
+
+	#modelado .about-us h4{
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	#modelado .about-us .btn-send{
+		margin-top: 30px;
+	}
+
+	#modelado .our-office{
+		padding-right: 0px;
+	}
+
+	.office-carousel-left,
+	.office-carousel-right {
+		background-color: #f0f0f0;
+		color:#000;
+		font-size: 32px;
+		height: 40px;
+		line-height: 40px;
+		margin-top: -20px;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width: 32px;
+		z-index: 999;
+		-webkit-transition: 300ms;
+		-moz-transition: 300ms;
+		-o-transition: 300ms;
+		-ms-transition: 300ms;
+		transition: 300ms;
+	}
+
+	.office-carousel-left {
+		left:-32px;
+	}
+
+	.office-carousel-right {
+		right:-32px;
+	}
+
+	#modelado-carousel:hover .office-carousel-left {
+		left:0;
+	}
+
+	#modelado-carousel:hover .office-carousel-right {
+		right:0;
+	}
+
+	#modelado-carousel .item img{
+		width: 100%;
+	}
+
+/*9. ABOUT US */
+
+ 	#documentacion{
+ 		background-color: #212121;
+ 	}
+
+ 	#documentacion .about-us{
+ 		padding-left: 15%;
+ 		padding-right: 15%;
+ 		padding-top: 15%;
+ 	}
+
+ 	#documentacion .about-us h4{
+ 		margin-top: 0;
+ 		margin-bottom: 30px;
+ 	}
+
+ 	#documentacion .about-us .btn-send{
+ 		margin-top: 30px;
+ 	}
+
+ 	#documentacion .our-office{
+ 		padding-right: 0px;
+ 	}
+
+ 	.office-carousel-left,
+ 	.office-carousel-right {
+ 		background-color: #f0f0f0;
+ 		color:#000;
+ 		font-size: 32px;
+ 		height: 40px;
+ 		line-height: 40px;
+ 		margin-top: -20px;
+ 		position: absolute;
+ 		text-align: center;
+ 		top: 50%;
+ 		width: 32px;
+ 		z-index: 999;
+ 		-webkit-transition: 300ms;
+ 		-moz-transition: 300ms;
+ 		-o-transition: 300ms;
+ 		-ms-transition: 300ms;
+ 		transition: 300ms;
+ 	}
+
+ 	.office-carousel-left {
+ 		left:-32px;
+ 	}
+
+ 	.office-carousel-right {
+ 		right:-32px;
+ 	}
+
+ 	#documentacion-carousel:hover .office-carousel-left {
+ 		left:0;
+ 	}
+
+ 	#documentacion-carousel:hover .office-carousel-right {
+ 		right:0;
+ 	}
+
+ 	#documentacion-carousel .item img{
+ 		width: 100%;
+ 	}
+
+/*9. ABOUT US */
+
+	#panorama{
+		background-color: #262626;
+	}
+
+	#panorama .about-us{
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 15%;
+	}
+
+	#panorama .about-us h4{
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	#panorama .about-us .btn-send{
+		margin-top: 30px;
+	}
+
+	#panorama .our-office{
+		padding-right: 0px;
+	}
+
+	.office-carousel-left,
+	.office-carousel-right {
+		background-color: #f0f0f0;
+		color:#000;
+		font-size: 32px;
+		height: 40px;
+		line-height: 40px;
+		margin-top: -20px;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width: 32px;
+		z-index: 999;
+		-webkit-transition: 300ms;
+		-moz-transition: 300ms;
+		-o-transition: 300ms;
+		-ms-transition: 300ms;
+		transition: 300ms;
+	}
+
+	.office-carousel-left {
+		left:-32px;
+	}
+
+	.office-carousel-right {
+		right:-32px;
+	}
+
+	#panorama-carousel:hover .office-carousel-left {
+		left:0;
+	}
+
+	#panorama-carousel:hover .office-carousel-right {
+		right:0;
+	}
+
+	#panorama-carousel .item img{
+		width: 100%;
+	}
 
 
 
